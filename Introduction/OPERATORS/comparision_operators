@@ -1,0 +1,43 @@
+# a =10
+
+# b= 5
+
+# print(a > b)  # greater than
+
+# print(a < b) # less than
+
+# print(a <= b)  #greater than or equal to
+
+# print(a >= b) #less than or equal to
+
+# print(a == b) #equal to
+
+# print(a != b)  #not equal to
+
+#comparision operators are  used to compare two values.
+
+# comparision operators mostly used in conditional statements.
+
+print(1 < True)   # 1 < 1
+
+print(1 > False) # 1 > 1
+
+print(1 == True)  # 1 == 1
+
+#we can use comparision operators in numbers and char or string
+
+#we can use the ascii code for str 
+print("ab" < "ac") #means 'a' is common and b & C values of ascii code evaluates which is greater
+
+
+#concatenation combing the words 
+print("Hello" + "World")
+
+print(1 + 2)
+#print("hello" * "hello")  doen't support for combing two string types
+#support  some arithmetic operators [!floor division]
+
+print("hello" * 3)
+
+
+print(True < False)

@@ -21,12 +21,5 @@ a,b = b,a  # overwrite this values of a and b
 # after overwriting
 # a=hello b=10
 
-a= "hi nanna"
-b= "hi bony"
 
 
-temp = a 
-a = b
-b = temp
-print(a)
-print(b)

@@ -8,3 +8,7 @@ height_cm = int(input("Enter your height :"))
 age = int(input("Enter your age :"))
 bmr = 88.362 + (13.397 * weight_kg) + (4.799 * height_cm) - (5.677 * age)
 print(f"The  BMR result is {bmr}")
+
+
+
+
