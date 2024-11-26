@@ -2,12 +2,14 @@
 # a="hello" b=10 then swap 
 
 a = "hey" # cls str
-b = "10" #cls int
+b = "10"
+#c = "45" #cls int
 
 print(f"a={a} ,b={b} before swapping")
 temp = a
 a = b
 b = temp
+#c = temp
 print(f"a={a}, b={b} after swapping")
 
 # taking an another variable called temp then swapping the values of a and b

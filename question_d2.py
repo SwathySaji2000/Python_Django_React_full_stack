@@ -3,8 +3,8 @@
 
 #1. Ask  for the user's first name and display the output message  Hello [First Name]
 
-first_name = input("Enter your first name:")
-print(f"Hello {first_name}")
+# first_name = input("Enter your first name:")
+# print(f"Hello {first_name}")
 
 #2.  Ask the user's first name and then ask for their surname and dispaly the output msg
 
@@ -71,4 +71,41 @@ print(f"Hello {first_name}")
 # print(f"The mark  percentage of five subject is {percentage}")
 
 
+#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<   CONDITIONAL STATEMENTS......>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+
+
+#wap to check whether a person is eligible for vote or not
+
+# n = int(input("Enter your age: "))
+
+# if n >= 18:
+
+#     print(f"{n} is eligible for vote")
+
+# else:
+
+#     print(f"{n} is not eligible for vote")    
+
+#wap to check whether a number is divisible by 7 or not
+
+# n = int(input("Enter a number: "))
+
+# if n % 7 == 0:
+#     print("it is divisible")
+
+# else:
+
+#     print("it is not divisible")    
+
+
+
+#wap to display "hello" if a number is entered by user is a multiple of five otherwise print "Bye"
+
+# n = int(input("Enter a number: "))
+
+# if n % 5 == 0:
+#     print("Hello")
+# else:
+#     print("bye")    
+ 

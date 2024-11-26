@@ -63,4 +63,6 @@ elif price  <= 50000:
 
     tax = (price * 7) / 100
 
-    print(f"total price is {price + tax}")     
+    print(f"total price is {price + tax}!")     
+
+    
