@@ -9,25 +9,25 @@
 #display the total price(cost + tax) to the customer
 
 
-# price = int(input("Enter the amount of bike: "))
+price = int(input("Enter the amount of bike: "))
 
-# if price > 100000:
+if price > 100000:
 
-#     tax = (price * 15) / 100
+    tax = (price * 15) / 100
 
-#     print(f"your total price is {tax + price}")
+    print(f"your total price is {tax + price}")
 
-# elif price > 50000 and  price <= 1000000:
+elif price > 50000 and  price <= 1000000:
 
-#     tax = (price * 10) / 100
+    tax = (price * 10) / 100
 
-#     print(f"your total is {tax + price} ")
+    print(f"your total is {tax + price} ")
 
-# else:
+else:
 
-#     tax = (price * 7) /100
+    tax = (price * 7) /100
 
-#     print(f"your total price is{tax + price}")
+    print(f"your total price is{tax + price}")
 
 
 
@@ -45,24 +45,24 @@
 
 
 
-price = int(input("Enter the amount of bike: "))
+# price = int(input("Enter the amount of bike: "))
 
-if price > 100000:
+# if price > 100000:
 
-    tax = (price * 15) / 100
+#     tax = (price * 15) / 100
 
-    print(f"Total price is {price + tax}")
+#     print(f"Total price is {price + tax}")
 
-elif price < 500000 and price <= 100000:
+# elif price < 500000 and price <= 100000:
 
-    tax = (price * 10) / 100
+#     tax = (price * 10) / 100
 
-    print(f"your total price is {price + tax}")
+#     print(f"your total price is {price + tax}")
 
-elif price  <= 50000:
+# elif price  <= 50000:
 
-    tax = (price * 7) / 100
+#     tax = (price * 7) / 100
 
-    print(f"total price is {price + tax}!")     
+#     print(f"total price is {price + tax}!")     
 
     
