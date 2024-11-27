@@ -109,3 +109,49 @@
 # else:
 #     print("bye")    
  
+
+#wap to display the last digit of a number
+
+# num  = int(input("Enter a number: "))
+
+# print("Last digit of a number is",(num % 10))
+
+
+#wap to check  whether the last digit of a number is divisible by 3 or not
+
+# num = int(input("Enter a number: "))
+
+# n = num % 10
+
+# if n % 3 == 0:
+
+#     print(f"The last digit is divisible by 3")
+
+# else:
+
+#     print("it is not divisible by 3")    
+
+
+# wap to accept percentage from user  and display the grades
+
+# > 90  A
+# > 80 and <= 90 B
+#  >=60 and < 80  c
+# < 60 D
+
+# per = int(input("Enter the percentage: "))
+# # perc = (per *500) // 1000
+
+# if per > 90:
+#     print(f"your grade is A")
+
+# elif  per > 80 and per <= 90:
+#     print(f" your grade is B")   
+
+# elif per  >= 60 and per < 80:
+#     print(f"your grade is C")
+# else:
+#     print(f"your grade is D")
+
+
+
