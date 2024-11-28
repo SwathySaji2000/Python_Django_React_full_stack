@@ -1,4 +1,4 @@
-# wap to find the second smallest among 3 numbers
+# wap to find the second smallest among 3 numbers.
 
 
 num1 = int(input("Enter a value: "))

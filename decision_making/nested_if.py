@@ -1,7 +1,8 @@
 
 
+#==============================>>>>>>>>>>>>>>>>>>>>>>    Nested if   < =======================================>>>>>>>>>>>>>>>>>>>>>>>
+# wap to find  a number is positive,negative or zero and number is less than 10 print hai else print getout
 
-# wap to find  a number is positive,negative or zero and number is leass than 10 print hai else print getout
 
 
 num = int(input("Enter a number: "))
@@ -15,7 +16,7 @@ if num > 0:
 
 elif num < 0:
 
-    print("negative")
+    print("getout")
 
 else:
 

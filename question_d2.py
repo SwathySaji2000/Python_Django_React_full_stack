@@ -139,6 +139,26 @@
 #  >=60 and < 80  c
 # < 60 D
 
+
+# mark = int(input("Enter the mark: ")) 
+
+# if (mark >90):
+#     print("your grade is A")
+
+# #elif mark > 80 and mark <= 90: 
+# elif 80 <= mark < 90:
+#     print("your result is B")
+
+
+# #elif  60 <= mark < 80:
+# elif mark >= 60 and mark < 80:
+#     print("your result is C")    
+
+# else:
+#     print("your result is D")   
+
+
+
 # per = int(input("Enter the percentage: "))
 # # perc = (per *500) // 1000
 
@@ -155,3 +175,46 @@
 
 
 
+# wap to check whether an year is leap year or not
+
+
+# yr = int(input("Enter a year:"))
+
+# if( yr % 100 == 0 and yr % 400 == 0) or (yr % 100 != 0 and yr % 4 == 0):
+
+#     print(f"{yr} is leap year")
+
+# else:
+
+#     print(f"{yr} is not a leap year")    
+
+
+ #wap to find the largest even among 3 numbers.
+
+num1 = int(input("Enter a number: "))
+
+num2 = int(input("Enter a nnumber: "))
+
+num3 = int(input("Enter a number: "))
+
+max_even = 0
+
+if num1 % 2 == 0 and num1 > max_even:
+
+ max_even = num1
+
+if num2 % 2 == 0 and num2 > max_even:
+
+    max_even = num2
+
+if num3 % 2 == 0 and num3 > max_even:
+
+    max_even = num3        
+
+if max_even > 0:
+
+    print(f"{max_even} is largest")
+
+else:
+
+    print("get out")     
