@@ -1,4 +1,4 @@
-#wap to enter the first name and last name .join them with a space between and print and also print the length'
+#wap to enter the first name and last name .join them with a space between and print and also print the length
 
 # f_name = input("Enter the first name: ")
 
@@ -16,8 +16,34 @@
 
 
 
-#==================================================== class Str Method
-#capatilize
+#==================================================== class Str Method =======================================================================
+
+
+#capatilize()  which converts the first letter of string into Capital letter
+
 name = "Luminar Technolab"
 
-print(name.capitalize)
+print(name.capitalize())
+
+
+#count()  count the number of occurence in a string
+
+print(name.count("a"))
+
+#upper #which returns the string value into upper case
+
+print(name.upper())
+
+#lower case  # which returns the string value into lower case
+
+print(name.lower())
+
+#index   which returns the  value of first occurence of letter 
+
+print(name.index("a"))
+
+#isalpha() returns true if the string contaiins all are alphabets
+
+print(name.isalpha())  
+
+#isalnum()  check if the string contains alphabet and number

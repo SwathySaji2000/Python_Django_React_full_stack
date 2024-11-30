@@ -191,30 +191,127 @@
 
  #wap to find the largest even among 3 numbers.
 
-num1 = int(input("Enter a number: "))
+# num1 = int(input("Enter a number: "))
 
-num2 = int(input("Enter a nnumber: "))
+# num2 = int(input("Enter a nnumber: "))
 
-num3 = int(input("Enter a number: "))
+# num3 = int(input("Enter a number: "))
 
-max_even = 0
+# max_even = 0
 
-if num1 % 2 == 0 and num1 > max_even:
+# if num1 % 2 == 0 and num1 > max_even:
 
- max_even = num1
+#  max_even = num1
 
-if num2 % 2 == 0 and num2 > max_even:
+# if num2 % 2 == 0 and num2 > max_even:
 
-    max_even = num2
+#     max_even = num2
 
-if num3 % 2 == 0 and num3 > max_even:
+# if num3 % 2 == 0 and num3 > max_even:
 
-    max_even = num3        
+#     max_even = num3        
 
-if max_even > 0:
+# if max_even > 0:
 
-    print(f"{max_even} is largest")
+#     print(f"{max_even} is largest")
 
-else:
+# else:
 
-    print("get out")     
+#     print("get out")     
+
+
+
+
+# #wap to get the last element from  string  enter by user 
+
+
+# name = input("Enter your name: ")
+
+# print(name[-1])
+
+#print(name[2])
+
+#wap to enter the first name and last name .join them with a space between and print and also print the length'
+
+# f_name = input("Enter your name: ")
+
+# l_name = input("Enter your name: ")
+
+# print(f"{f_name} {l_name}")
+
+# temp = f_name + " " + l_name
+
+# print(temp)
+
+# print(len(temp))
+
+
+#wap to capatilaze the string
+
+
+# name = input("Enter a word: ")
+
+# print(name.capitalize())
+
+#wap to get the last element from  string  enter by user
+
+# name = input("Enter a word:")
+
+
+# print(name[-1])
+
+# print(name[0:5])
+
+# print(name[4:])
+
+# print(name[ ::-1 ])
+
+
+
+#wap to enter the first name and last name .join them with a space between and print and also print the length
+
+
+# f_name = input("Enter your name: ")
+
+# l_name = input("Enter your last name: ")
+
+# print(f"{f_name} {l_name}")
+
+# full_name = f_name + " " + l_name
+
+# print(full_name)
+
+# print(len(full_name))
+
+# print(full_name[:: -1])
+
+# print(full_name[ 1])
+
+# print(full_name.capitalize())
+
+# wap to find  a number is positive,negative or zero and number is less than 10 print hai else print getout
+
+# wap to print odd number from 1 to 30
+
+# i = 1
+
+# while (i <= 30):
+
+#     if(i % 2 != 0):
+
+#      print(i)
+
+#     i = i + 1
+
+# wap to print numbers divisible by 3 and 5 from 1 to 100
+
+
+# i = 1
+
+# while(i <= 100):
+
+#     if(i % 3 == 0 and i % 5 == 0):
+
+#         print(i)
+
+#     i = i + 1
