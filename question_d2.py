@@ -315,3 +315,45 @@
 #         print(i)
 
 #     i = i + 1
+
+
+# wap to find the sum of digits enter by user
+
+# num = 123455
+
+# i = 0
+
+# sum = 0
+
+# num = str(num)
+
+# while(i<len(num)):
+
+#     sum = sum + int(num[i])
+
+#     i = i + 1
+
+# print(sum)
+
+
+
+ # wap to find the sum of digits enter by user
+
+
+num = int(input("Enter a number: "))
+
+
+i = 0
+
+sum = 0
+
+
+num = str(num)
+
+while i < len(num):
+
+    sum = sum + int(num[i])
+
+    i = i + 1
+
+print(sum)    

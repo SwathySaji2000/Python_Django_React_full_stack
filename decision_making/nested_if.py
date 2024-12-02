@@ -13,6 +13,9 @@ if num > 0:
     if num < 10:
 
         print("hai")
+    else:
+
+        print("getout")    
 
 elif num < 0:
 

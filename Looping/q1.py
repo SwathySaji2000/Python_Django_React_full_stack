@@ -2,7 +2,7 @@
 
 i = 1
 
-while (1 <= 1000):     # 1 < 1000
+while (i <= 1000):     # 1 < 1000  true  intializing variable vechu thanne condition  kodukuka
 
     print(i)
 
