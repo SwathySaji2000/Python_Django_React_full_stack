@@ -23,7 +23,7 @@ num = int(input("Enter a number: "))
 
 i = 0
 
-sum = 0   # store cheyyan variable eduthu then oro loo anusarich sum inte values replace akum
+sum = 0   # store cheyyan variable eduthu then oro loop anusarich sum inte values replace akum
 
 num = str(num)   # converting int to string type then only find index of num
 

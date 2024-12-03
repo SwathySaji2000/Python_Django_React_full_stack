@@ -340,20 +340,115 @@
  # wap to find the sum of digits enter by user
 
 
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
+
+# i = 0
+
+# sum = 0
+
+
+# num = str(num)
+
+# while i < len(num):
+
+#     sum = sum + int(num[i])
+
+#     i = i + 1
+
+# print(sum)    
+
+
+
+# wap to find the product of number enter by user
+
+
+# num = int(input("Enter a number: "))
+
+# i = 0 
+
+# prod = 1
+
+# num = str(num)
+
+# while(i <len(num)):
+
+#     prod = prod * int(num[i])
+
+#     i = i + 1
+
+# print(prod)    
+
+
+# write a program to print frt 10 even numbers and frst 10 odd numbers
+
+
+# i = 0
+
+# even = 0
+
+# while (i < 10):
+
+#     if i % 2 == 0:
+
+#         even = even + i
+
+#     i = i + 1
+
+# print(f"The first even numbers are: {even}")        
+
+
+# wap to print the leap years from 
+
+# start_limit = 1900
+
+# end_limit = 2024
+
+  
+
+
+# wap to print sum of elements in odd index
+
+# num = 145637  # 4 + 6 + 7
+
+# i = 0
+
+# num = str(num)
+
+# sum = 0
+
+# while (i < len(num)):
+
+#     if ( i % 2 != 0):
+
+#         sum = sum + int(str(num)[i])
+
+#     i = i + 1
+
+# print(sum)    
+
+# wap to find the armstrong of a number.
+
+# 121 i.e 1^3 + 2^3 + 1^3
+
+num = 121
+
+temp = num
 
 i = 0
 
 sum = 0
 
+while (i < 0):
 
-num = str(num)
+    num = num % 10
 
-while i < len(num):
+    sum = sum +  i ** num
 
-    sum = sum + int(num[i])
+    digit = num // 10
 
     i = i + 1
 
-print(sum)    
+print(num)    
+
+
