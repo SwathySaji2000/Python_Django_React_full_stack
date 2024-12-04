@@ -1,7 +1,7 @@
 # wap to find the armstrong of a number
 
 
-number = 121
+number = 153 
 
 temp = number  # stores the original value for futher looping or checking armstrong which simplifies last
 

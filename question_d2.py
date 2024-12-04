@@ -431,24 +431,122 @@
 
 # 121 i.e 1^3 + 2^3 + 1^3
 
-num = 121
+# num = 121
 
-temp = num
+# temp = num
 
-i = 0
 
-sum = 0
+# length = len(str(num))
 
-while (i < 0):
+# sum = 0
 
-    num = num % 10
+# while (num > 0):
 
-    sum = sum +  i ** num
+#     digit = num % 10
 
-    digit = num // 10
+#     sum  += digit  ** length
 
-    i = i + 1
+#     num = num // 10
 
-print(num)    
+# print(sum)    
+
+
+#palliandrome
+
+# num = 121
+
+# temp = num
+
+# rev = 0
+
+# while (num > 0):
+
+#     digit = num % 10
+
+#     rev = rev * 10 + digit
+
+#     num = num // 10
+
+# print(rev)    
+
+# if temp == rev:
+
+#     print("it is a palliandrome")
+
+# else:
+
+#     print("it is not a palaiandrome")    
+
+
+
+# set the total to 0 to start with. while the total is 50 or less, ask the user to input a number. 
+# Add that number to  the total and print the message " The total is.. [total]"
+# stop the loop when the total is over 50.
+
+
+# total = 0
+
+# while ( total <= 50):
+
+#     num =int(input("Enter a number: "))
+
+#     total += num
+
+# print(f"The total  is {total}")    
+
+
+# create a variable called compnum and set the value to 50. ask the user to enter a number. while their guess is not the same as the
+# compnum value, tell them if their guess is too low or too high and ask them to have another guess.
+# # if they enter the same value as compnum display the message "well done, you took [count] attempts".
+
+# compnum =50
+
+# count = 0
+# num = 0
+
+# while num != compnum:
+
+#     num = int(input("Enter a number:"))
+
+#     count += 1
+
+#     if num > compnum:
+
+#      print("too high")
+
+#     elif num < compnum:
+
+#      print("too low")    
+
+# print(f"Well done, you took {count} times")     
+
+
+# ask the user to enter a number between 10 and 20 .if they enter a value under 10, display the message "too low" and ask them to try again.
+# if they enter a value above 20,  display the message "too high " and ask them to try again.  keep  repeating this until enter a value 
+# that is between 10 and 20 and then display the message "Thank you."
+
+       
+n = int(input("Enter a number:  "))
+
+
+while n < 10 or n > 20:
+   
+   if n < 10:
+
+     print("too low")
+
+   elif n > 20:
+
+      print(" too high")
+
+   n = int(input("try again: "))    
+
+print("Thank you")
+
+
+
+
+
+
 
 
