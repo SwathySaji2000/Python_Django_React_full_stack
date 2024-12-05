@@ -4,22 +4,23 @@
 # display the message " Take an umbrella" . if they did not answer "yes" to the first question, display the answer "Enjoy your day"
 
 
-q = input(" Enter the climate condition:")
 
-w = input("it is windy")
 
-print(q.lower())
+w = input("if it is raining ?(yes or no):")
 
-if q == True:
+
+
+
+if w == "yes": 
     
-    print(w)
+    s = input("if it is windy?(yes or no):")
 
     
-    if w == True:
+    if s == "yes":
 
      print("it is too windy for an umbrella")  
 
-    elif w == False:
+    else:
 
      print("Take an umbrella")
 
@@ -30,19 +31,7 @@ else:
 
 
     
-# # Ask if it is raining
-# q = input("Is it raining? (yes or no): ").strip().lower()
 
-# if q == "yes":
-#     # Ask if it is windy
-#     w = input("Is it windy? (yes or no): ").strip().lower()
-
-#     if w == "yes":
-#         print("It is too windy for an umbrella.")
-#     else:
-#         print("Take an umbrella.")
-# else:
-#     print("Enjoy your day!")
 
 
 
