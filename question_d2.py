@@ -492,58 +492,123 @@
 
 #     total += num
 
-# print(f"The total  is {total}")    
+# # print(f"The total  is {total}")    
 
 
-# create a variable called compnum and set the value to 50. ask the user to enter a number. while their guess is not the same as the
-# compnum value, tell them if their guess is too low or too high and ask them to have another guess.
-# # if they enter the same value as compnum display the message "well done, you took [count] attempts".
+# # create a variable called compnum and set the value to 50. ask the user to enter a number. while their guess is not the same as the
+# # compnum value, tell them if their guess is too low or too high and ask them to have another guess.
+# # # if they enter the same value as compnum display the message "well done, you took [count] attempts".
 
-# compnum =50
+# # compnum =50
 
-# count = 0
-# num = 0
+# # count = 0
+# # num = 0
 
-# while num != compnum:
+# # while num != compnum:
 
-#     num = int(input("Enter a number:"))
+# #     num = int(input("Enter a number:"))
 
-#     count += 1
+# #     count += 1
 
-#     if num > compnum:
+# #     if num > compnum:
 
-#      print("too high")
+# #      print("too high")
 
-#     elif num < compnum:
+# #     elif num < compnum:
 
-#      print("too low")    
+# #      print("too low")    
 
-# print(f"Well done, you took {count} times")     
+# # print(f"Well done, you took {count} times")     
 
 
-# ask the user to enter a number between 10 and 20 .if they enter a value under 10, display the message "too low" and ask them to try again.
-# if they enter a value above 20,  display the message "too high " and ask them to try again.  keep  repeating this until enter a value 
-# that is between 10 and 20 and then display the message "Thank you."
+# # ask the user to enter a number between 10 and 20 .if they enter a value under 10, display the message "too low" and ask them to try again.
+# # if they enter a value above 20,  display the message "too high " and ask them to try again.  keep  repeating this until enter a value 
+# # that is between 10 and 20 and then display the message "Thank you."
 
        
-n = int(input("Enter a number:  "))
+# # n = int(input("Enter a number:  "))
 
 
-while n < 10 or n > 20:
+# # while n < 10 or n > 20:
    
-   if n < 10:
+# #    if n < 10:
 
-     print("too low")
+# #      print("too low")
 
-   elif n > 20:
+# #    elif n > 20:
 
-      print(" too high")
+# #       print(" too high")
 
-   n = int(input("try again: "))    
+# #    n = int(input("try again: "))    
 
-print("Thank you")
+# # print("Thank you")
 
 
+# # wap to find the perfect number   # 6 = 1+2+3
+
+# n = int(input("Enter a number: "))
+
+# temp = n
+
+# div = 1
+
+# sum = 0
+
+# while div < n:
+    
+#     if n % div == 0:
+        
+#       sum += div
+
+#     div += 1
+
+
+# if sum == temp:
+
+#    print(f"{temp} is a perfect number")
+
+# else:
+
+#    print(f"get out")            
+
+
+
+# harshad number is an integer that is divisible by the sum of its digits
+# ex: 9 + 9 = 18 and 18 is divisible by 9
+        
+# n = 18
+
+# temp = n
+
+
+# sum = 0
+
+# while  n > 0:
+    
+#    div = n % 10
+
+#    sum += div
+
+#    n = n // 10
+
+# if temp % sum == 0:
+
+#    print(f"{temp} is harshad number")
+
+# else:
+
+#    print("get out")   
+
+
+
+
+
+
+
+
+
+
+        
 
 
 

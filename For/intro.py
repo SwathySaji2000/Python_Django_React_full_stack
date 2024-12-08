@@ -1,5 +1,5 @@
  
-# ===================The  for loop is used to iterate over a sequence is called Iterable object============
+# ===============================
 
 
 # for is quantity based.
@@ -13,6 +13,8 @@
 # range(10) => returns 1 to 9 { 10 is stop value}
 
 #  range => iterable object 
+
+# The  for loop is used to iterate over a sequence is called Iterable object
 
 # it doesn't returns direct value so using a variable it calls the range
 
