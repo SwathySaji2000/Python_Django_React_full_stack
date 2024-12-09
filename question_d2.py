@@ -600,9 +600,197 @@
 #    print("get out")   
 
 
+# most recursive (most repeated) character
+
+# a = input("Enter a word: ")
+
+# max = 0
+
+
+# # for i in a:
+
+# #     if a.count(i) > 0:
+
+
+# #         max = a.count(i)
+
+# #         element = i
+# # print(f"element is {element} and count is {max}")
+
+
+# #  wap to find the sum of first n number and n is entered by user
+
+# # n = int(input("Enter the number: "))
+
+# # sum = 0
+
+# # for i in range(1,n+1):
+
+# #     sum = sum + i
+
+# # print(sum)    
 
 
 
+# # wap to find the duplicate chracter or recursive character
+
+
+# # name ="mohanlal"
+
+# # for i in name:
+
+# #     print(f"The name is {i} and {name.count(i)}")
+
+
+# # wap to find a number is perfect number
+
+# n = int(input("Enter a number: "))
+
+# i = 1
+
+# sum = 0
+
+# for i in range(1,n):
+
+#     if n % i == 0:
+
+#      sum += i
+
+# if sum == n:
+#   print(f"{sum} is a perfect number")
+
+# else:
+#     print("get out")    
+
+          
+# ask the people "how many people you want to invite"  if number below 10 ask for the  "name and dispaly [name, has been invited"]
+#  if above 10  "too many people".
+
+# guest = int(input("Enter the number of people: "))
+
+# if guest > 10:
+
+#     print("Too many people")
+
+
+# elif guest < 10:
+
+#     for i in range(guest):
+
+#         name = input("Enter the name: ")
+
+#     print(f"{name}, has been invited")    
+
+
+
+# wap to find the sum of digits in value entered by user.
+
+# n ="yuegygd56674874878"
+
+# sum = 0
+
+# for i in n:
+
+#     if i.isdigit():
+
+#         sum += int(i)
+
+# print(sum)        
+
+# find the index of a target
+
+# given  a string and a target value. use  for loop to find and display the index of the target value. if the target value is not 
+
+# in the list. display a msg saying its not found.
+# 
+
+# name = input("Enter a word: ")
+
+# value = input("Enter the target value: ")
+
+
+# for i in range (len(name)):
+
+#     if name[i] == value:
+
+#         print(f"{value} of character is present at index {i}")
+
+# if name[i] != value:
+
+#         print(f"it is not found at {i}")    
+
+
+# name = input("Enter a word: ")
+
+# value = input("Enter the target value: ")
+
+
+# for i in range (len(name)):
+
+#     if name[i] == value:
+
+#         print(f"{value} of character is present at index {i}")
+
+# if name[i] != value:
+
+#         print(f"it is not found at {i}")    
+
+
+# Reverse a string
+
+# wap to reverse a string using for a loop
+
+# ex: python as nohtop  
+
+# text = "python"
+
+# rev = ""
+
+# i = 0
+
+# for i in range (len(text)):
+
+#     if i < (len(text)):
+
+#         rev = text[i] + rev
+
+#         i += 1
+
+# print(rev)    
+
+#  1. Count Vowels and Consonants
+
+# Write a program to count the number of vowels and consonants in a string.
+# Input: "hello world"
+# Output:
+# Vowels: 3
+# Consonants: 7
+
+text = "hello world"
+
+vowels = "aeiou"
+
+vowel_count = 0
+
+Consonant_count = 0
+
+for i in text:
+
+    if i in vowels:
+
+        vowel_count += 1
+
+
+
+    elif i.isalpha() and  i not in vowels:
+
+        Consonant_count += 1
+
+        
+
+print(f"Vowel count is: {vowel_count}")
+
+print(f"Consonant count is: {Consonant_count}")
 
 
 

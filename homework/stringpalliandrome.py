@@ -1,6 +1,6 @@
 # wap to check a string is palliandrome
 
-text = "qwerty"
+text = "madam"
 
 rev = ""
 

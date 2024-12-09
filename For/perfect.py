@@ -1,7 +1,7 @@
 # wap to find a number is perfect number
 
 
-n = 20
+n = 6
 
 sum = 0
 
