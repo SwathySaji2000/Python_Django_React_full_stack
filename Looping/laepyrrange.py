@@ -10,9 +10,18 @@ i = 1900
 while i <= end_limit:
 
     if ( i % 4 == 0 and i % 100 != 0) or (i % 100 == 0 and i % 400 == 0):
-
+    
      
       print(i)
 
 
-    i += 1    
+    i += 1
+
+
+for i in range(1900,2024):
+    
+    if (i % 100 == 0 and i % 400 == 0) or ( i % 100 != 0 and i % 4 == 0 ):
+        
+        print(i)
+
+ 

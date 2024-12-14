@@ -15,7 +15,7 @@ name = "luminar"
 
 vowels = "aeiou"    
 
-for i in name:
+for i in name: 
 
     if i not in vowels:
 

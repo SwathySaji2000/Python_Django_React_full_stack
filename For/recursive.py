@@ -14,3 +14,5 @@ for i in name:
       element = i
 
 print(f"element = {element} and  count = {max}")     
+
+

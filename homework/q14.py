@@ -12,4 +12,4 @@ else:
     print("Incorrect answer ")    
 
 
-    # inclussive means boundaryvalues are not included
+    # inclussive means boundary values are not included

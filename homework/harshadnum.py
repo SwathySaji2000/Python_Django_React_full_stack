@@ -17,7 +17,7 @@ while n > 0:
 
     n = n // 10
 
-if temp % sum == 0:
+if temp % sum == 0:              
     
     print("it  is harshad")
     

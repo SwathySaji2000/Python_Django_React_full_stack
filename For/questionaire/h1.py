@@ -6,16 +6,18 @@
 
  # Python, iterable objects are those that can be looped over, such as strings, lists, tuples, and dictionaries.
   # an integer is a single value, so you cannot directly loop over it.
+  # 
 
-n = int(input("Enter the number: "))
+
+number = input("Enter the number: ")  # we use a string type later conerting to int # if we use int which results in ascii values
+
 
 sum = 0
 
+for i in number:
+    
+  sum = sum + int(i)
 
-for i in n:
-
-    sum += i
-
-print(f"The sum is: {sum}")   
+print(f"sum is: {sum}")  
 
 

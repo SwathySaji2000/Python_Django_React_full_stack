@@ -18,7 +18,7 @@ while True:
 
     if option == "yes":
 
-        guest = str(input("Enter the name: "))
+        guest = input("Enter the name: ")
 
         count += 1
 

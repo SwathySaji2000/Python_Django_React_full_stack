@@ -10,23 +10,19 @@ number = int(input("Enter a number: "))
 
 while number <= 1:
 
-    print("Enter a value greater than one")
+  print("Enter a value greater than one")
 
-    number = int(input("Enter a number: "))
+  number = int(input("Enter a number: "))
 
-for i in range(2,number):
+  for i in range(2,number):
 
       if number % i == 0:
 
         print("it is not a prime number")
 
-        break
+      break
 
-      else:
+else:
 
-       print("it is a prime number")
+      print("it is a prime number")
 
-
-
-
-          

@@ -10,4 +10,8 @@ for i in name:
     
     if i in vowels:
 
+     print(f"the vowels are {i}")
+
+    elif i not in vowels:     
+
         print(i)

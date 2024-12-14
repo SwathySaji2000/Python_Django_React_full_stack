@@ -715,91 +715,703 @@
 
 #         print(f"{value} of character is present at index {i}")
 
-# if name[i] != value:
+# # if name[i] != value:
 
-#         print(f"it is not found at {i}")    
-
-
-# name = input("Enter a word: ")
-
-# value = input("Enter the target value: ")
+# #         print(f"it is not found at {i}")    
 
 
-# for i in range (len(name)):
+# # name = input("Enter a word: ")
 
-#     if name[i] == value:
+# # value = input("Enter the target value: ")
 
-#         print(f"{value} of character is present at index {i}")
 
-# if name[i] != value:
+# # for i in range (len(name)):
 
-#         print(f"it is not found at {i}")    
+# #     if name[i] == value:
+
+# #         print(f"{value} of character is present at index {i}")
+
+# # if name[i] != value:
+
+# #         print(f"it is not found at {i}")    
+
+
+# # Reverse a string
+
+# # wap to reverse a string using for a loop
+
+# # ex: python as nohtop  
+
+# # text = "python"
+
+# # rev = ""
+
+# # i = 0
+
+# # for i in range (len(text)):
+
+# #     if i < (len(text)):
+
+# #         rev = text[i] + rev
+
+# #         i += 1
+
+# # print(rev)    
+
+# #  1. Count Vowels and Consonants
+
+# # Write a program to count the number of vowels and consonants in a string.
+# # Input: "hello world"
+# # Output:
+# # Vowels: 3
+# # Consonants: 7
+
+# text = "hello world"
+
+# vowels = "aeiou"
+
+# vowel_count = 0
+
+# Consonant_count = 0
+
+# for i in text:
+
+#     if i in vowels:
+
+#         vowel_count += 1
+
+
+
+#     elif i.isalpha() and  i not in vowels:
+
+#         Consonant_count += 1
+
+
+# print(f"Vowel count is: {vowel_count}")
+
+# print(f"Consonant count is: {Consonant_count}")
+
+ #  wap to find the prime number.
+
+# is a number tht is divided by itself and 1
+
+# number = int(input("Enter a number: "))
+
+# while number <= 1:
+
+#     for i in range(2, number):
+
+#         if number % i == 0:
+
+#             print("It is not a prime number")
+
+#         break
+# else:
+
+#         print("it is a prime number")
+
+# break # is used to terminate the loop when given condition is met.
+
+# i = 1
+
+# while (i < 10):
+
+#     print(i)
+
+#     if i == 4:
+#         break
+
+#     i += 1
+
+########### coontinue  which skips the condition is true 
+
+# for i in range(1,5):
+
+#     if i == 3:
+
+#         continue
+
+#     print(i)
+  
+# wap to print even numbers from the range 1,30
+
+# for i in range(1,30):    # here if the condition  is true which skips 
+
+#     if i % 2 != 0:
+
+#         continue
+#     print(i)
+
+# wap to find the index and first occurence of the text
+
+# text = input("Enter the text: ")
+
+# target = input("Enter the text: ")
+
+# for i in text:
+
+#     if i == target:
+
+#         print(text.index(i))
+
+#         break
+# else:
+#         print(" not found")
+
+
+# # prime or not
+
+# number = int(input("Enter a number: "))
+
+# while number < 1:
+  
+#     print("please enter a number greater than one:")
+
+#     number = int(input("Enter a number: "))
+
+#     for i in range(2,number):
+
+#       if  number % i == 0:
+      
+#         print("it is not a prime")
+
+#     break
+# else:
+
+#   print("it is a prime")    
+
+# sum of digits
+
+# wap to calculate sum of digits of a number provided by the user. use a for loop to iterate over the digits.
+
+# Iterate over the digits" means going through each individual digit in a number one by one, usually using a loop.
+
+
+# number = input("Enter the number: ")
+
+# sum = 0
+
+# for i in number:
+
+#     sum = sum +  int(i)
+
+# print(f"sum is: {sum}")
+
+# Even numbers in range.
+# wap to display all even numbers between two integers provided by the user.
+
+# n1 = int(input("Enter a number: "))
+
+# n2 = int(input("Enter a number: "))
+
+# for i in range(n1,n2):
+
+#     if i % 2 == 0:
+
+#         print(i)
+
+# find the index of a target
+
+# given  a string and a target value. use  for loop to find and display the index of the target value. if the target value is not 
+
+# in the list. display a msg saying its not found.
+
+
+# text = "helloworld"
+
+# target = "l"
+
+# for i in text:
+
+#     if i == target:
+
+#         print(text.index(i))
+
+#         break
+
+#     else:
+
+#      print("it is not found")        
 
 
 # Reverse a string
 
 # wap to reverse a string using for a loop
 
-# ex: python as nohtop  
+# # ex: python as nohtop
 
 # text = "python"
 
 # rev = ""
 
-# i = 0
+# i = 1
 
 # for i in range (len(text)):
 
-#     if i < (len(text)):
+#     if i < len(text):
 
-#         rev = text[i] + rev
+#         rev =  text[i] + rev 
+    
+#         i += 1  
 
-#         i += 1
+#     print(rev)      
+
+
+
+# # Given a string, count the frequency of each character using a for loop and display the results.
+
+
+# # text ="helloworld"
+      
+
+# # count = 0
+
+# # for i in range(len(text)):
+
+# #     if i > count:
+
+# #         count = count + i
+
+
+# # print(count)     
+
+# # wap to check palliandrome or not
+
+# # text = "python"
+
+# # rev = ""
+
+# # i = 0
+
+# # while (i < len(text)):
+
+# #     rev = text[i] + rev
+
+# #     i += 1
+
+# # print (rev)
+
+
+# # for i in range(len(text)):
+
+# #     if i < len(text):
+
+# #         rev = text[i] + rev
+
+# # #         i += 1
+# # # print(rev)        
+
+
+# # # perfect number
+
+
+# # n = int(input("Enter a number: "))
+
+# # sum = 0
+
+# # div = 1
+
+# # while div < n:
+
+# #     if n % div == 0:
+
+# #       sum += div
+
+# #       div += 1
+
+# # print(sum)        
+
+# text = "hellopython"
+
+    
+# for i in text:
+    
+#     if i == "p":
+        
+#         index = text.index(i)
+
+#         element = text[0:index]
+
+#         el = text[index::]
+
+      
+
+# print(element[::-1] + el[::-1])
+
+
+# text = "hellopython"
+
+# if "p" in text:  # Check if 'p' exists in the string
+#     index = text.index("p")  # Find the index of 'p'
+#     before_p = text[:index]  # Get the part before 'p'
+#     after_p = text[index + 1:]  # Get the part after 'p'
+#     result = before_p[::-1] + "p" + after_p[::-1]  # Reverse both parts and combine
+#     print(result)
+# else:
+#     print("The letter 'p' is not in the string.")
+
+
+# text = "hellopython"
+
+# for i in text:
+    
+#     if i == "p":
+        
+#         index =text.index(i)
+
+#         element = text[0:index]
+
+# print(element[::-1] + text[index::])        
+
+
+#prime range
+
+# for j in range (1,10):
+    
+#     if j > 1:
+        
+#         for i in range (2,j):
+            
+#             if j % i == 0:
+                
+#                 print(f"{j} is not a prime number")
+#                 break
+
+
+#         else:  
+
+#               print(f"{j} is a prime number") 
+            
+    
+    
+#     else:
+#           print("prime number should be greater than one")     
+
+
+# write a for loop that iterates from 1 to 100. 
+# print "Fizz" for multiples of 3.
+# print  "Buzz" for mutiples of 5 
+# print "FizzBuzz" for multiples of both 3 and 5.
+
+# n = int(input("Enter a number : "))
+# for i in range(1,100):
+    
+#     if n % 3 == 0 and n % 5 != 0:
+        
+#         print("fizz")
+#         break
+
+#     elif n % 5 ==  0 and n % 3 != 0:
+# #         print("Buzz")
+# #         break  
+
+# #     elif n % 5 == 0 and n % 3 == 0:
+# #         print("FizzBuzz") 
+# #         break   
+
+# # harshad
+
+# n = 156
+
+# sum = 0
+
+# for i in str(n):
+    
+#     sum = sum + int(i)
+
+# print(sum)
+
+
+# if sum % n == 0:
+    
+#     print("it is a harshad number")
+
+# else:
+
+#     print("it is not a harshad number")    
+
+
+
+# sum of first n numbers
+
+#  wap to find the sum of first n number and n is entered by user
+
+# n = int(input("Enter a number: "))  
+
+# sum = 0
+
+# for i in range(1,n+1):
+    
+#     sum =sum + i
+
+# print(sum)    
+
+# wap to check a string is palliandrome.
+
+# text = "madam"
+# i = 0
+
+# rev =""
+
+# for i in text:
+  
+#      rev = text + rev
+#      break
+
+
+# print(rev)    
+# ask the people "how many people you want to invite"  if number below 10 ask for the  "name and dispaly [name, has been invited"]
+#  if above 10  "too many people"
+
+# visitors = int(input("Enter the number: "))
+
+# if visitors > 10:
+
+#   print("Too many people")    
+
+# elif visitors < 10:
+
+#   for i in range(visitors):
+
+#     name = input("Enter the name: ")
+
+#     print(f"{name}, have been invited")            
+# 
+# wap to print  leap year                                 
+
+# year = int(input("Enter a number: "))
+
+# if (year % 100 == 0 and year % 400 == 0) or (year % 100 != 0 and year % 4 == 0):
+    
+#     print(f"{year} is a leap year")
+
+# else:
+#     print(f"{year} is not a leap year")   
+# 
+# wap to print a number is armstrong or not
+ 
+# n = 153
+
+# temp = n
+
+# length = len(str(n))
+
+# sum = 0
+
+# while n > 0:
+    
+#     digit = n % 10
+
+#     sum += digit ** length
+
+#     n = n // 10
+# print(sum)    
+
+# wap to check a number is palliandrome or not.
+
+# # n = 121
+
+# # temp = n
+
+# # sum = 0
+
+# # rev = 0
+
+# # while n > 0:
+    
+# #     digit = n % 10
+
+# #     rev = rev * 10 + digit
+
+# #     n = n // 10
+
+# # print(rev)    
+
+
+# # Ask for the name of somebody the user wants to invite to a party. after this, dislay the message "[name]" has been now invited.
+
+# #and add 1 to the count. Then ask if they want to invite somebody else .keep repeating this until they no longer want to invite anyone else to the party and 
+# # then display how many people they have coming to the party..
+# # count  = 0
+
+# # guest = input("Enter the name: ")
+
+# # print(f"{guest} has been now invited")
+
+# # while True:
+# #     option = input("Do you want invite somebody? (yes or no:)")
+
+# #     if option == "yes":
+        
+# #         name = input("Enter the name:")
+
+# #         count += 1
+
+
+# #Armstrong
+
+# # n = 153
+
+# # sum = 0
+# # length = len(str(n))
+
+# # while n > 0:
+
+# #     digit = n % 10
+
+# #     sum += digit  ** length
+
+# #     n = n // 10
+
+# # print(sum)
+
+# # palliandrome
+
+# n = 121
+
+# rev = 0
+
+# temp = n
+
+# while n > 0:
+
+#     digit = n % 10
+
+#     rev = rev * 10 + digit
+
+#     n = n // 10
 
 # print(rev)    
 
-#  1. Count Vowels and Consonants
+# if rev == temp:
 
-# Write a program to count the number of vowels and consonants in a string.
-# Input: "hello world"
-# Output:
-# Vowels: 3
-# Consonants: 7
+#     print(f"{rev} is palliandrome")
+
+# else:
+#     print("it is not palliandrome")
+
+
+        
+#string palliandrome
+
+# text = "madam"
+
+# rev = ""
+
+# for i in text:
+
+#     rev = i + rev
+# print(rev)    
+
+#recursive index
+
+text = "hellopython"
+
+# for i in text:
+
+#     if i == "p":
+
+#      index = text.index(i)
+
+#      element = text[0:index]
+
+# print(element[::-1] + text[index::])     
+
+# for i in text:
+
+#     if i == "p":
+
+#         index = text.index(i)
+
+#         element  = text[index::]
+
+#         print(text[0:index]+ ""+ element[::-1])
+
+
+#         #  print(element[::-1] + text[index::])
+
+
+# n = 156
+
+# # sum = 0
+
+# # for i in str(n):
+
+# #     sum = sum + int(i)
+
+# # print(sum)
+
+# # if n % sum == 0:
+
+# #     print(f"{n} is a harshad number")
+# # else:
+# #     print("it is a harshad number")  
+# # 
+# #   1. Count Vowels and Consonants
+
+# # Write a program to count the number of vowels and consonants in a string.
+# # Input: "hello world"
+# # Output:
+# # Vowels: 3
+# # Consonants: 7
+# # 
+
+# text = "hello world"
+
+# vowel_count = 0
+
+# consonant_count = 0
+
+# vowels = "aeiou"
+# for i in text:
+
+#     if i in vowels:
+       
+#        vowel_count += 1
+
+
+#        print(f"The vowels are:{i}")
+
+       
+#     elif i not in vowels  and i.isalpha():
+        
+#         consonant_count +=  1
+
+
+#         print(f"The consonants are: {i}")
+# print(f"The vowel count is:{vowel_count}")
+
+# print(f"The consonant count is: {consonant_count}")
+
+
+# # prime number
+
+# for j in range(1,10):
+
+#     if j > 1:
+
+#         for i in range (2,j):
+
+#             if j % i == 0:
+
+#                 print(f"{j} is not a prime number")
+#                 break
+#         else:
+#              print(f"{j} is a prime number")
+
+#     else:
+
+#         print("prime number should be greater than one")         
+
+# find the recursive character.
 
 text = "hello world"
-
-vowels = "aeiou"
-
-vowel_count = 0
-
-Consonant_count = 0
-
+max = 0
 for i in text:
+    if text.count (i) > max:
 
-    if i in vowels:
-
-        vowel_count += 1
-
-
-
-    elif i.isalpha() and  i not in vowels:
-
-        Consonant_count += 1
-
-        
-
-print(f"Vowel count is: {vowel_count}")
-
-print(f"Consonant count is: {Consonant_count}")
-
-
-
-
-
-        
-
-
-
-
+        max = text.count(i)
+        element = i
+print(f" element is{element} and count is {max}")      
 
 
