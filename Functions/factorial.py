@@ -2,7 +2,7 @@
 
 
 
-def factorial():
+def factorial(num):
 
     
    fact = 1
@@ -13,10 +13,10 @@ def factorial():
 
         i += 1
 
-        return fact
+   return fact
 
 num = int(input("Enter the num : "))
 
-print(f"factorial{num}")
+print(f"The factorial of {num} is {factorial(num)}")
 
 

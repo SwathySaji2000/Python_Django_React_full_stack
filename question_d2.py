@@ -1405,13 +1405,27 @@ text = "hellopython"
 
 # find the recursive character.
 
-text = "hello world"
-max = 0
-for i in text:
-    if text.count (i) > max:
+# text = "hello world"
+# max = 0
+# for i in text:
+#     if text.count (i) > max:
 
-        max = text.count(i)
-        element = i
-print(f" element is{element} and count is {max}")      
+#         max = text.count(i)
+#         element = i
+# print(f" element is{element} and count is {max}")      
 
 
+# factorial
+
+def factorial(num):
+
+    fact = 1
+
+    for i in range(1, num + 1):
+
+        fact = fact * i
+
+    return fact
+num = int(input("Enter a number: "))
+
+print(f"The factorial of {num} is {(factorial(num))}")

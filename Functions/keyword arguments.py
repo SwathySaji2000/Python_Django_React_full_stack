@@ -1,6 +1,4 @@
 
-
-
 ### keyword arguments
 
 
@@ -15,7 +13,10 @@ detail(course="django", place ="kottayam",name="swathy")
 
 ##### Default arguments
 
-# python  allows function 
+# python  allows function arguments have default values. if the function without arguments, the argument get its default value.
+# it only allows in the last.
+
+
 def detail(name,place,gender = None):
 
     print(f"ur name is {name}, ur  from {place}, your gender is {gender}")
