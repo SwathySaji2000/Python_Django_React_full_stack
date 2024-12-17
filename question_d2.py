@@ -1417,15 +1417,79 @@ text = "hellopython"
 
 # factorial
 
-def factorial(num):
+# def factorial(num):
 
-    fact = 1
+#     fact = 1
 
-    for i in range(1, num + 1):
+#     for i in range(1, num + 1):
 
-        fact = fact * i
+#         fact = fact * i
 
-    return fact
-num = int(input("Enter a number: "))
+#     return fact
+# num = int(input("Enter a number: "))
 
-print(f"The factorial of {num} is {(factorial(num))}")
+# print(f"The factorial of {num} is {(factorial(num))}")
+
+
+# def sum(*args):
+
+#     print(args)
+
+#     sum = 0
+
+#     for i in args:
+#         sum += i
+
+# #     print(f"sum is {sum}")    
+
+
+# # sum(6,7,1)
+
+# # sum(2,5,1)
+
+# # wap to find the sum of odd n even numbers
+# # using function
+
+
+# def sum(*args):
+
+#     odd_sum = 0
+
+#     even_sum = 0
+
+#     for i  in args:
+
+#         if i % 2 != 0:
+
+#             odd_sum += i
+
+#         else:
+
+#             even_sum += i  
+
+#     print(f"sum of odd number is : {odd_sum}") 
+
+#     print(f"sum of even number is :{even_sum}")   
+
+
+# sum(4,7,2)
+
+# sum(7,8,9)
+
+
+
+
+# wap to find the factors of even numbers using function with parameters as args
+def even(*args):
+
+    for i in args:
+
+        if i % 2 == 0:
+
+            for j in range(1,i):
+
+                if i % j == 0:
+
+                 print(j) 
+
+even(6,9,2)                            
