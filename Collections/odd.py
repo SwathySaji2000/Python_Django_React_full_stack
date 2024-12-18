@@ -29,14 +29,14 @@ for i in numbers:
 
     if i % 2 != 0:
 
-        odd_number.append(i)
-
-        print(odd_number)
+     odd_number.append(i)
 
     
 
     elif i % 2 == 0:
 
-        even_number.append(i)    
+     even_number.append(i)    
 
-    print(even_number)    
+print(f"Odd numbers are: {odd_number}")
+
+print(f"Even numbers are: {even_number}")

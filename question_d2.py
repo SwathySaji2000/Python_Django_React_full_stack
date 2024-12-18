@@ -1479,17 +1479,69 @@ text = "hellopython"
 
 
 
-# wap to find the factors of even numbers using function with parameters as args
-def even(*args):
+# # wap to find the factors of even numbers using function with parameters as args
+# def even(*args):
 
-    for i in args:
+#     for i in args:
 
-        if i % 2 == 0:
+#         if i % 2 == 0:
 
-            for j in range(1,i):
+#             for j in range(1,i):
 
-                if i % j == 0:
+#                 if i % j == 0:
 
-                 print(j) 
+#                  print(j) 
 
-even(6,9,2)                            
+# # even(6,9,2)                            
+
+
+# # wap to print the odd numbers from the list
+
+# numbers = [1, 2, 3, 4, 5, 4, 3, 2, 7, 8]
+
+# odd_num = []
+
+# even_num = []
+
+# for i in numbers:
+
+#     if i % 2 != 0:
+
+#         odd_num.append(i)
+
+#     else:
+
+#         even_num.append(i)
+
+# print(f"odd numbers : {odd_num}") 
+# print(f"even numbers : {even_num}")        
+
+
+# number = [4,5,6,1,2,3]
+
+# for i in range(4):
+
+#     k = number.pop()
+#     number.insert(0,k)
+# print(number)    
+
+
+number = 145
+sum = 0
+
+for i in str(number):
+
+        fact = 1
+
+        for j in range(1, int(i)+1):
+
+            fact = fact * j
+
+        sum = sum + fact
+
+if sum == number:
+
+        print(f"{number} is a strong number") 
+else:
+
+        print("get out")        

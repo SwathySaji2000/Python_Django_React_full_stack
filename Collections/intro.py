@@ -15,10 +15,26 @@
 
 # maintains order  ""
 
+
+#  ****************************************** METHODS ****************************
+
 #  method   ===>  object.append()  ,,, method used to add an element to the existing list or end of an list
-            
 
+#  ====> object.pop() remove an d returns the element   
 
+# ====> object.insert()
+
+#   ===> object.index()  is used to return the position of an element.
+
+#  ====> object.count() is used to find the repeated element or return the occurences.
+
+# ===> object.extend() is used to adding  more than one elements into the existing collection.
+
+items = [1,3,4,5,0]
+
+items.extend([0,True,False])
+
+print(items)
 
 #   string and list are linked because of index , 
 

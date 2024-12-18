@@ -12,7 +12,7 @@ sum = 0
 
 
 
-for i in str(number):
+for i in str(number):    # converts the number into a string, so we can iterate over each digit ('1', '4', '5').
 
     fact = 1
 

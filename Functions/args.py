@@ -2,7 +2,7 @@
 
 ######                         args                                #####
    
-### args is a variable number of arguments
+###
 
 # to pass a variable number of arguments to a function  ============>>>  args
  
