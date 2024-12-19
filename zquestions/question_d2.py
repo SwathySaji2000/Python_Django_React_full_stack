@@ -1490,58 +1490,58 @@ text = "hellopython"
 
 #                 if i % j == 0:
 
-#                  print(j) 
+# #                  print(j) 
 
-# # even(6,9,2)                            
-
-
-# # wap to print the odd numbers from the list
-
-# numbers = [1, 2, 3, 4, 5, 4, 3, 2, 7, 8]
-
-# odd_num = []
-
-# even_num = []
-
-# for i in numbers:
-
-#     if i % 2 != 0:
-
-#         odd_num.append(i)
-
-#     else:
-
-#         even_num.append(i)
-
-# print(f"odd numbers : {odd_num}") 
-# print(f"even numbers : {even_num}")        
+# # # even(6,9,2)                            
 
 
-# number = [4,5,6,1,2,3]
+# # # wap to print the odd numbers from the list
 
-# for i in range(4):
+# # numbers = [1, 2, 3, 4, 5, 4, 3, 2, 7, 8]
 
-#     k = number.pop()
-#     number.insert(0,k)
-# print(number)    
+# # odd_num = []
+
+# # even_num = []
+
+# # for i in numbers:
+
+# #     if i % 2 != 0:
+
+# #         odd_num.append(i)
+
+# #     else:
+
+# #         even_num.append(i)
+
+# # print(f"odd numbers : {odd_num}") 
+# # print(f"even numbers : {even_num}")        
 
 
-number = 145
-sum = 0
+# # number = [4,5,6,1,2,3]
 
-for i in str(number):
+# # for i in range(4):
 
-        fact = 1
+# #     k = number.pop()
+# #     number.insert(0,k)
+# # print(number)    
 
-        for j in range(1, int(i)+1):
 
-            fact = fact * j
+# number = 145
+# sum = 0
 
-        sum = sum + fact
+# for i in str(number):
 
-if sum == number:
+#         fact = 1
 
-        print(f"{number} is a strong number") 
-else:
+#         for j in range(1, int(i)+1):
 
-        print("get out")        
+#             fact = fact * j
+
+#         sum = sum + fact
+
+# if sum == number:
+
+#         print(f"{number} is a strong number") 
+# else:
+
+#         print("get out")        
