@@ -68,24 +68,93 @@
 
 
 #  read numbers from the user until user enters a value 0
-#  then display the list of numbrs in ascending order
-
-
-n = int(input("Enter a number: "))
-
-num = []
-
-while(n != 0):
-
-  n.append(num)
-
-  n = int(input("Enter a number: "))
-
-  print("number is added")
+#  then display the list of numbers in ascending order
 
   
+# n = int(input("Enter a number: ")) 
+    
+# num = []
+
+# while(n != 0):
+    
+#     num.append(n)
+
+#     n = int(input("Enter a number: "))
+
+#     print(f"{n} is addedd")
+
+#     num.sort()
+
+# print(num)    
 
 
+
+# # wap to print the smallest number using function
+# def smallest(numbers):
+
+#   small = numbers[0]
+
+#   for i in numbers:
+
+#     if i < small:
+      
+#       small = i
+
+#       print(i)
+
+# smallest([13,4,7,8])      
+                
+
+ # wap to interchange first and last elements of a list...
+
+# numbers = [16,58,78,29] 
+
+# if (numbers):
+#    numbers[0],numbers[-1] = numbers[-1],numbers[0]
+#    print(f"{[numbers[0]]} , {[numbers[-1]]}")
+
+# else:
+   
+#    print("empty list")
+
+# wap to swap the element 
+
+# def swap(numbers):
+    
+#   numbers = [10,20,30,40,50]
+#   temp = 0
+
+#   if(numbers):    
+
+#     numbers[0] = numbers[1]
+
+#     numbers[1] = temp
+
+#     temp = numbers[0]
+
+#     print(numbers)
+
+#   else:
+
+#     print("getout")  
+
+# swap([10,20,30,40,50])
+
+
+
+
+
+# text = "Hello  World"
+
+# word = text.split()
+
+# rev = ""
+
+# for i in reversed(word):
+    
+#     rev = rev + i + " "
+
+# print(rev)    
 
 
 

@@ -66,3 +66,5 @@ print(items)
 #******************  insert (index and element)
 items.insert(2,"geethy")
 print(items)
+
+# List is iterable which can modify like cred
