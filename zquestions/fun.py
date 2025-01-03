@@ -157,13 +157,61 @@
 # print(rev)    
 
 
-keys= [1,2,3,4,5]
-values = [6,7,8,9,10]
+# keys= [1,2,3,4,5]
+# values = [6,7,8,9,10]
 
-items = {}
+# items = {}
 
-for i in range(len(keys0)):
+# for i in range(len(keys0)):
 
-    items[keys[i]] = values[i]
+#     items[keys[i]] = values[i]
 
-print(items)    
+# print(items)    
+
+
+################# LIST comprehension
+
+# items = ["apple","grape","kiwi"]
+
+# new = [i for i in items if "a" in i]
+# print(new)
+
+# items = ["12.7",7,2,4,5,"True"]
+
+# new = [ i for i in items if type(i) == int]
+
+# print(new)
+
+# numbers = [1,2,3,4,5,6,7,1,4,1,3,3,4,4,4,4,4,2]
+
+# d = {}
+
+# for i in numbers:
+
+#     d[i] = numbers.count(i)
+
+# print(d)
+
+# wap to find the index of smallest element in the list..
+
+
+numbers = [5,8,3,90]
+
+n = [numbers.index(min(numbers))]
+
+print(n)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

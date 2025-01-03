@@ -1,7 +1,7 @@
 items = ["apple","grape","kiwi"]
 
 
-new = [i for i in items if "a" in  i]  # add  cheyyunathanu i then items il  ninannunu i edukunath then condition checks
+new = [i for i in items if "a" in  i]   # add  cheyyunathanu i then items il  ninannunu i edukunath then condition checks
 
 print(new)  
 
