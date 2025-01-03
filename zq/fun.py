@@ -195,11 +195,14 @@
 # wap to find the index of smallest element in the list..
 
 
-numbers = [5,8,3,90]
+# numbers = [5,8,3,90]
 
-n = [numbers.index(min(numbers))]
+# n = [numbers.index(min(numbers))]
 
-print(n)
+# print(n)
+
+
+
 
 
 
