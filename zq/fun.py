@@ -256,6 +256,28 @@
 
 # print(result)
 
+################## reduce
 
+# from functools import reduce
 
+# numbers =[10,12,3,4,50]
 
+# # result = reduce(lambda a,b:a+b,numbers)
+# # print(result)
+
+# result =  list(filter(lambda a:a%2==0,numbers))
+# print(result)
+
+# show = reduce(lambda a,b:a+b,result)
+# # print(show)
+
+# file = open("j.txt","r")
+
+# print(file.read())
+
+# file = open("h.txt","w")
+
+# file.write("python django")
+
+file = open("C:/Users/swath/OneDrive/Desktop/fullstack/Breaking Statementss/lol.txt","w")
+file.write("Enjoy each moment")

@@ -14,6 +14,8 @@
 # append "a"
 
 
+
+
 # syntax : open("filename","mode")
 
 # open is a function
@@ -36,6 +38,7 @@ file.write("hello python")
 
 
 file = open("C:/Users/swath/OneDrive/Desktop/fullstack/Decision_Making/sample.txt","w")
+
 file.write("Hello World ")
 
 
