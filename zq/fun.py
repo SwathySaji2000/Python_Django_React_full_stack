@@ -202,18 +202,59 @@
 # print(n)
 
 
+#### lamba
 
 
+# square = lambda n: n**2
+
+# print(square(5))
+
+# wap to find the smallest amoung 3 numbers
+
+# smallest = lambda a,b,c : a if (a > b and a > c) else b if (b>c and b>a)  else c
+
+# print(smallest)
+# wap length  of a string
+
+# length = lambda text:len(text)
+
+# print(length("hello"))
+
+# wap to find the max of a number
+
+# maximum = lambda a,b: a if a>b else b
+
+# print(maximum(9,12))
+
+# number = lambda n:"even" if n % 2 == 0 else "odd"
+
+# print(number(9))
 
 
+# wap to find the numbers divisible by 5
+
+# numbers = [1,3,5,10,4,7,25,30]
+
+# result = list(map(lambda a : a if a % 5 == 0 else None, numbers))
+# print(result)
 
 
+# wap to find the number is positive or negative
+
+# number = [1.4,2,3,-1,-3,-8]
+
+# result = list(map(lambda a : a if  (a > 0  and type(a)==int) else None,number))
+
+# print(result)
 
 
+###########********************  FILTER
 
+# numbers = [2,5,6,7,10,15,20,25]
 
+# result =list(filter(lambda n: n if n % 5 == 0 else None,numbers))
 
-
+# print(result)
 
 
 

@@ -2,6 +2,8 @@
 
 # map function
  
+# syntx : (function,argument: expression,collection)
+
 
 # The map() function is used to apply a given function to every item of an iterable,
 

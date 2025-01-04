@@ -20,7 +20,7 @@ square = lambda n:n**2
 print(square(4))
 
 
-# wap to find the smallest of 3 numbers using lambda
+# wap to find the sum of 3 numbers using lambda
 
 
 sum = lambda a,b,c: a+b+c
