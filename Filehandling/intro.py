@@ -25,8 +25,6 @@ file= open("new.txt","r")
 
 print(file.read())
 
-
-
 #########################    write() creates a new file 
 
 file = open("abc.txt","w")
@@ -39,7 +37,27 @@ file.write("hello python")
 
 file = open("C:/Users/swath/OneDrive/Desktop/fullstack/Decision_Making/sample.txt","w")
 
-file.write("Hello World ")
+file.write("Hello  World ")
+
+
+################## append
+
+
+file = open("abc.txt","a")
+file.write(" django")
+
+
+file = open("sample.txt","a")
+file.write(" hi beautiful")
+
+
+
+
+
+
+
+
+
 
 
 

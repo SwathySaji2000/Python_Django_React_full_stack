@@ -279,5 +279,75 @@
 
 # file.write("python django")
 
-file = open("C:/Users/swath/OneDrive/Desktop/fullstack/Breaking Statementss/lol.txt","w")
-file.write("Enjoy each moment")
+# file = open("C:/Users/swath/OneDrive/Desktop/fullstack/Breaking Statementss/lol.txt","w")
+# file.write("Enjoy each moment")
+
+
+# create a new file "python.txt" and write " python is object oriented"
+
+# read the content from python.txt and dispaly  and append " programming language"
+
+# file = open("v.txt","w")
+# file.write("python is object oriented")
+# file.close()
+
+# file = open("v.txt","r")
+# print(file.read())
+
+# file = open("v.txt","a")
+# file.write(" programming language")
+# file.close()
+
+# file = open("v.txt","r")
+# print(file.read())
+
+
+
+#   create a new file and write " python is a programming language practise it"
+
+
+# read the words from above which starts with letter "p" and display in a list
+
+# file = open("po.txt","w")
+
+# file.write("python is a programming language practise it")
+
+# file.close()
+
+# result = []
+
+# file = open("po.txt","r")
+
+# # print(file.read())
+
+# # print(file.read().split( " "))
+
+# for i in file.read().split(" "):
+#     if "p" in i and i.index("p") == 0:
+
+#         result.append(i)
+
+# print(result)        
+
+items = ["hello","python","hello","django"]
+
+# create a file and write this list to it
+
+# read the file and display the unique elements
+
+
+file = open("t.txt","w")
+for i in items:
+  file.write(i + "\n")
+
+list = [ ]
+
+file = open("t.txt","r")
+
+for i in file.readlines():
+  
+   list.append(i.strip("\n"))
+
+print([ i for i in list if list.count(i) == 1])   
+
+print([ i for i in list  if list.count(i) == 1])
