@@ -25,9 +25,8 @@ for i in file.readlines():
 
     list.append(i.strip("\n"))  # remove \n 
 
-print([ i  for i in list if list.count(i) == 1])  # list comprehension
+print([ i  for i in list if list.count(i) == 1])    # list comprehension
 
 
 
 
- 

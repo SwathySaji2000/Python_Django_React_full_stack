@@ -10,6 +10,7 @@ file.write("python is object oriented")
 file.close()
 
 
+
 file = open("python.txt","r")
 
 print(file.read())
@@ -19,7 +20,6 @@ file.close()
 file = open("python.txt","a")
 
 file.write(" programming language")
-
 
 file.close()
 

@@ -13,7 +13,7 @@
 # write "w"   if an existing file write() performs over write otherwise opens a new file
 # append "a"
 
-
+# to create a file ==> "x"
 
 
 # syntax : open("filename","mode")
@@ -49,6 +49,33 @@ file.write(" django")
 
 file = open("sample.txt","a")
 file.write(" hi beautiful")
+
+
+
+###################### with  is used to avoid file.close  ,,,,,, as means aliesing  
+
+# with open("abc.txt","r") as file:   
+
+#     print(file.read())
+
+with open("abc.txt","r+") as file:   # r+ for read and write
+
+    print(file.read())
+
+    file.write(" hello  world")    
+
+with open("abc.txt","w+") as file:  # w+ opens the file for writing and reading.
+
+    print(file.read()) 
+
+    file.write("hello") 
+
+  
+
+
+
+
+
 
 
 

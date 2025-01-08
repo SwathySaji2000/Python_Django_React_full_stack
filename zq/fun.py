@@ -336,18 +336,113 @@ items = ["hello","python","hello","django"]
 # read the file and display the unique elements
 
 
-file = open("t.txt","w")
-for i in items:
-  file.write(i + "\n")
+# file = open("t.txt","w")
+# for i in items:
+#   file.write(i + "\n")
 
-list = [ ]
+# list = [ ]
 
-file = open("t.txt","r")
+# file = open("t.txt","r")
 
-for i in file.readlines():
+# for i in file.readlines():
   
-   list.append(i.strip("\n"))
+#    list.append(i.strip("\n"))
 
-print([ i for i in list if list.count(i) == 1])   
+# print([ i for i in list if list.count(i) == 1])   
 
-print([ i for i in list  if list.count(i) == 1])
+# print([ i for i in list  if list.count(i) == 1])
+
+
+# with open("po.txt","r+") as file:
+#   print(file.read())
+#   file.write(" hiiis")
+# #   print(file.read())
+
+# with open("p3.txt","w+") as file:
+#    print(file.read())
+#    file.write("hjisghghs")
+
+
+# try:
+#      a = int(input("Enter a number: "))
+
+#      b = int(input("Enter a number: "))
+
+#      result = a/b
+
+#      print(result)
+
+# except:
+     
+#      print("zero is not divisible")
+
+
+# try:
+    
+#     a = int(input("Enter a number: "))
+
+#     b = int(input("Enter a number: "))
+
+#     result = a/b
+#     print(result)
+
+
+# except ZeroDivisionError:
+
+#     print("it is not divisible by zero")
+
+# except ValueError:
+    
+#     print("enter a digit")
+
+
+# open a file and read  if the file content in this directory  from console 
+# otherwise print "sorry file is not exisitng in this directory"  using try n except+
+
+# try:
+    
+#     with(open(input("Enter the file name:"))) as file:
+        
+#         print(file.read())
+
+# except FileNotFoundError:
+
+#     print("sorry file is not exisitng in this directory")            
+
+
+
+
+numbers = [1,23,45,67,80,10]
+
+try:
+    
+    print(numbers.index(int(input("Entera value: "))))
+
+
+except ValueError:
+    
+    print("please enter a value")
+
+except  NameError:
+
+    print("Enter a valid digit")   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
