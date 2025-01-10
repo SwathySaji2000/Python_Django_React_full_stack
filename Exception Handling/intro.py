@@ -1,5 +1,5 @@
 
-##########    Exception Handling  or Error Handling'
+##########    Exception Handling  or Error Handling 
 
 
 # """"""""""""""""""""
@@ -7,12 +7,12 @@
 
 # Exception Handling allows the prgm to continue to execute even if an error occurs.
 
-""""""""""""""""""""
+#""""""""""""""""""""
 # try
 
 # except
 
-# finally
+# finally  ==> doesnt care about try n except execution of a program which produce the outcome
 
 
 # if an exception occurs during execution of the try clause, the exception  may be handled by an except
@@ -35,8 +35,8 @@ except:
 
     print(" divide by zero is not possible")    
    
-
-
+finally:
+    print("thankyou")
 
 
 

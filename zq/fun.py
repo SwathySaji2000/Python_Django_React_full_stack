@@ -372,66 +372,92 @@ items = ["hello","python","hello","django"]
 
 #      print(result)
 
-# except:
+# # except:
      
-#      print("zero is not divisible")
+# #      print("zero is not divisible")
 
 
-# try:
+# # try:
     
-#     a = int(input("Enter a number: "))
+# #     a = int(input("Enter a number: "))
 
-#     b = int(input("Enter a number: "))
+# #     b = int(input("Enter a number: "))
 
-#     result = a/b
-#     print(result)
+# #     result = a/b
+# #     print(result)
 
 
-# except ZeroDivisionError:
+# # except ZeroDivisionError:
 
-#     print("it is not divisible by zero")
+# #     print("it is not divisible by zero")
 
-# except ValueError:
+# # except ValueError:
     
-#     print("enter a digit")
+# #     print("enter a digit")
 
 
-# open a file and read  if the file content in this directory  from console 
-# otherwise print "sorry file is not exisitng in this directory"  using try n except+
+# # open a file and read  if the file content in this directory  from console 
+# # otherwise print "sorry file is not exisitng in this directory"  using try n except+
 
-# try:
+# # try:
     
-#     with(open(input("Enter the file name:"))) as file:
+# #     with(open(input("Enter the file name:"))) as file:
         
-#         print(file.read())
+# #         print(file.read())
 
-# except FileNotFoundError:
+# # except FileNotFoundError:
 
-#     print("sorry file is not exisitng in this directory")            
-
-
+# #     print("sorry file is not exisitng in this directory")            
 
 
-numbers = [1,23,45,67,80,10]
 
-try:
+
+# # numbers = [1,23,45,67,80,10]
+
+# # try:
     
-    print(numbers.index(int(input("Entera value: "))))
+# #     print(numbers.index(int(input("Entera value: "))))
 
 
-except ValueError:
+# # except ValueError:
     
-    print("please enter a value")
+# #     print("please enter a value")
 
-except  NameError:
+# # except  NameError:
 
-    print("Enter a valid digit")   
-
-
+# #     print("Enter a valid digit")   
 
 
+# # suppose an array of length n sorted  in ascending order is rotated between 1 and n times.
+
+# # ex the array numbers 
 
 
+# # num = [1,3,4,6,7,8,9]
+
+# # n=int(input("Enter the number of rotations: "))
+
+# # for i in range(n):
+# #   num.insert(0,num.pop())
+
+# # print(num) 
+
+# #wap to find ugly number
+
+# number = 19
+
+# for i in [2,3,5]:
+
+#     while number%i==0:
+#      number = number / i
+
+#     if number == 1:
+#         print("it is an ugly number")
+#         break
+
+# else:
+#        print("it is not  an ugly number")
+          
 
 
 

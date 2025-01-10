@@ -16,3 +16,5 @@ except ValueError:
 
     print("please enter a digit")     
 
+finally:
+    print("thankyou")
