@@ -20,9 +20,10 @@ def fact(*args):
 fact(16)                      
 
 fact(8,9,65)
-                
+
 
            
+
 
     
 

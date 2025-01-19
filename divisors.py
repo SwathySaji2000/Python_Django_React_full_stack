@@ -9,3 +9,5 @@ def divisor(num):
             print(i)
 
 divisor(9)       
+
+

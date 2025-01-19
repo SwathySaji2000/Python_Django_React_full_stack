@@ -22,9 +22,10 @@ def pangram(text):
             print("it is not a pangram")
             break
 
-    else:
+        else:
 
-     print("it is a pangram")
+           print("it is a pangram")
+           break
 
 
 word = input("Enter the string: ")
