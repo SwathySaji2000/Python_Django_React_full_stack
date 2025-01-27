@@ -1,55 +1,37 @@
-# # palliandrome
+# # # palliandrome
 
-# #121
+# # #121
 
-# def palliandrome(n):
+# # def palliandrome(n):
 
-#     rev = 0
+# #     rev = 0
 
-#     temp = n
+# #     temp = n
 
-#     while(n>0):
+# #     while(n>0):
 
-#         digit = n % 10
-#         rev = rev * 10 + digit
-#         n = n // 10
+# #         digit = n % 10
+# #         rev = rev * 10 + digit
+# #         n = n // 10
 
 
-#     if rev == temp:
-#         print(f"{temp} is a palliandrome")
+# #     if rev == temp:
+# #         print(f"{temp} is a palliandrome")
 
-#     else:
+# #     else:
 
-#         print(f"{temp} is not a palliandrome")
+# #         print(f"{temp} is not a palliandrome")
 
-# n= int(input("Enter a number:"))
-# palliandrome(n)                  
+# # n= int(input("Enter a number:"))
+# # palliandrome(n)                  
 
-class Palliandrome:
+# class Palliandrome:
 
-    def __init__(self,num):
+#     def __init__(self,num):
 
-        self.num = num
+#         self.num = num
         
     
-
- 
-
-
-
-             
-
-
-
-
-
-
-
-
-
-    
-
-
 
 
         

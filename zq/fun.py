@@ -1019,6 +1019,194 @@ import re
 
 
 
+# # Given a string, return a string for every character in the orginal there are three characters.
+
+# # hello == hhheeellllllooo
+
+# def triple(text):
+
+#     new = ""
+
+#     for i in text:
+
+#         new += i*3
+
+#     print(new)
+
+# triple("swathy")
+
+# given three integers between 1 and 11, if their sum is less or equal to 21, retun their sum. 
+# if their sum exceeds 21 and there's an eleven, reduce the total sum by 10.
+# finally, if the sum (even after adjustment ) exceeds 21, return 'BUST'.
+
+
+# def sum(a,b,c):
+
+#     value = a+b+c
+
+#     if value <= 21:
+
+#         print(value)
+
+#     elif (a == 11 or b == 11 or c == 11) and (value > 21 ):
+
+#         print(value - 10) 
+
+
+#     if (value - 10) > 21:
+
+#         print("BUST")     
+
+
+# sum(11,13,14)
+
+# given two integers return true if the sum of the integers is 20 or if one of the integers is 20. if not, return false.
+
+
+# def sum(n1,n2):
+#    n1 = int(input("Enter the number: "))
+#    n2 = int(input("Enter the number:"))
+
+#    result = n1+n2
+
+
+
+#    if (n1 == 20 or n2 == 20  or result == 20)  and result > 20:
+
+#       print(True)
+
+#    else:
+#       print(False)
+
+
+# sum(n1=3,n2=12)
+
+# wap to find the number is within 10 either 100 or 200, 
+
+
+# # def find(n):
+
+# #     if (n>=90 and n <= 110) or (n >= 190 and n <= 210):
+
+# #         print(True)
+
+
+# #     else:
+
+# #         print(False)
+
+# # find(198)       
+
+# # given an string, return true if any value appears at least twice in the string.
+
+# # and return false if every element is distinct. using function.
+
+
+
+
+# def positive(fn):
+
+#     def wrapper():
+
+#         print("Welcome")
+
+#         return fn
+    
+#     return wrapper()
+
+
+# @positive
+
+# def greet():
+
+#     print("Hello")
+
+# greet()    
+
+# write a function  for  the sum  of numbers using  decorator
+
+
+# def positive(fn):
+
+#     def wrapper(*args):
+
+# #         for  i in args:
+
+# #             if i < 0:
+
+# #                 print("Please enter a positive value:")
+# #                 break
+# #         else:
+# #             return fn(*args)
+# #     return wrapper
+
+# # @positive
+
+# # def sum(*args):
+
+# #     sum = 0
+
+# #     for i in args:
+# #         sum += i
+
+# #     print(sum)
+
+# # sum(3,4,5)        
+
+# def positive(fn):
+
+#     def wrapper(*args):
+
+#         for i in args:
+
+#             if i < 0:
+
+#                 print("Please enter a positive value:")
+#                 break
+#             else:
+
+#                 return fn(*args)
+            
+#     return wrapper
+
+                 
+
+
+# @positive
+# def sum1(*args):
+
+#     sum = 0
+
+#     for i in args:
+
+#         sum += i
+
+#     print(sum)       
+
+# sum1(4,5,6)   
+       
+### Bubble Sort
+
+
+numbers = [3,6,1,9,7]
+
+n = len(numbers)
+for i in range(n):
+
+    for j in range(0,n-i-1):
+
+
+        if numbers[j] > numbers[j+1]:
+
+            numbers[j],numbers[j+1] = numbers[j+1],numbers[j]
+            
+print(numbers)            
+
+
+
+
+
+
 
 
 

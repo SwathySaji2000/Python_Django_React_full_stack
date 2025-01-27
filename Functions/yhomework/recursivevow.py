@@ -14,7 +14,7 @@ def recursive(*args):
       
       for j in i:
 
-         if j in vowels:                   # and text.count(i) > 1
+         if j in vowels:          # and text.count(i) > 1
  
             if j in result:
 

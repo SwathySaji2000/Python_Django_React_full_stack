@@ -1,7 +1,7 @@
 #############  OOPS
  
 
-# python is object oriented programming language.
+# python is object oriented programming language.  [partially because abstract class does not support ]
 
 # class is a  blue print of object to be  created.
 # Objects can also contain methods. 
